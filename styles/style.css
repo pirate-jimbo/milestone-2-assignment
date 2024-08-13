@@ -37,6 +37,22 @@
   background-color: rgba(230, 83, 60, 1);
   border: none;
 }
+.text-1{
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.text-2{
+  color: rgba(255, 255, 255, 0.74);
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.text-3{
+  color: white;
+  font-weight: 900;
+  font-size: 1.75rem;
+
+}
 
 /* Head Style */
 .head-bg-clr{
@@ -102,6 +118,7 @@
     border-radius: 46px;
     background-color: black;
     margin-left: 18px;
+    border-color: white;
     }
 
   .banner-img{
@@ -167,4 +184,28 @@
     font-weight: 400;
     font-size: 1rem;
   }
+
+/* Habbit Styles */
+.habbits{
+  margin-top: 90px;
+}
+.text-habbit{
+  text-align: center;
+  margin: 0px 385px;
+}
   
+
+/* BMI Calculator */
+.t-color{
+  border-collapse: collapse;
+  /* border-style: solid;
+  border-color: rgba(255, 255, 255, 0.74); */
+}
+td,th{
+  border: 1px solid rgba(255, 255, 255, 0.74) ;
+  padding: 7px 12px;
+}
+.t-head{
+  color: white;
+  text-align: left;
+}
