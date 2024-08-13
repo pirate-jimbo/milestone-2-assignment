@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -7,15 +7,44 @@
   font-style: normal;
 }
 
+.miama{
+  font-family: "Miama" , sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+                                           
+}
+
 /* Shared Styles */
 .display-flex {
     display: flex;
 }
-.head-bg-clr{
+.bg-clr{
     background-color: black;
     
 }
+.regular-text{
+  color: rgba(255, 255, 255, 0.74);
+  font-weight: 400;
+  font-size: 1rem;
+}
+.shared-btn{
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 16px 47px;
+  border-radius: 46px;
+  background-color: rgba(230, 83, 60, 1);
+  border: none;
+}
 
+/* Head Style */
+.head-bg-clr{
+  background-color: rgba(31, 31, 32, 0.459);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+
+}
 /* Nav Style */
 .navbar {
     justify-content: space-between;
@@ -44,5 +73,97 @@
 
 .nav-items {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 40px;
   }
+
+  /* Banner Related Styles */
+  .banner{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 190px;
+  }
+
+  .banner-text{
+    color: white;
+    font-weight: 900;
+    font-size: 5rem;
+  }
+  .shape{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 5rem;
+  }
+  .dwn-btn{
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 16px 47px;
+    border-radius: 46px;
+    background-color: black;
+    margin-left: 18px;
+    }
+
+  .banner-img{
+    position: relative;
+    margin-top: 80px;
+  }
+  /* .banner-btn{
+    position: absolute;
+    width: 100%;
+  } */
+  
+
+
+  .btn-1{
+    position: absolute;
+    width: 193px;
+    height: 110px;
+    padding: 17px 30px;
+    background-color: rgba(111, 111, 112, 0.233);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin-top: -468px;
+    margin-left: 210px;
+    border-radius: 12px;
+    border: none;
+
+  }
+  .video-1{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+  }
+  .text-video-1{
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: 400;
+    font-size: 0.82rem;
+  }
+  
+
+  .btn-2{
+    position: absolute;
+    color: white;
+    height: 100px;
+    width: 206px;
+    padding: 17px 23px;
+    background-color: rgba(111, 111, 112, 0.233);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+    margin-left: -105px;
+    margin-top: -175px;
+    border: none;
+  }
+
+
+  .video-2{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+  }
+  .text-video-2{
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
