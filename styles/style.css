@@ -314,6 +314,12 @@
   margin-right: 150px;
   margin-top: 50px;
 }
+.brand-3{
+  color: white;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 4.375rem;
+}
 
 /* BMI Calculator */
 .bmi-text{
@@ -500,4 +506,114 @@ select {
 border-top: 0.25px solid rgba(255, 255, 255, 0.103);
 margin-top: 30px;
 align-items: center;
+}
+
+/* Responsive Section For mobile max 576px*/
+@media screen and (max-width: 576px){
+  .navbar{
+    padding: 52px 20px;
+    margin: 0;
+  }
+  .navbar ul{
+    display: none;
+  }
+  .nav-menu{
+    display: inline-block;
+  }
+  .club{
+    display: none;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .banner-text{
+    padding: 0px;
+    margin: 0px;
+  }
+  .banner-text h3 {
+    max-width: 350px;
+    font-size: 2.25rem;
+
+  }
+  .banner-text p {
+    max-width: 274px;
+  }
+  /* .banner-img{
+    margin-left: -200px;
+  } */
+  .habbit-container {
+    padding: 0 10px;
+    margin: 0 20px;
+  }
+  .habbit-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .habbit{
+    padding: 0px 52px;
+  }
+  .run-extra{
+    flex-direction: column;
+    margin: 66px 20px;
+    padding: 33px 35px;
+    gap: 31px;
+  }
+  .run-img{
+    max-width: 100%;
+  }
+  .features-div{
+    flex-direction: column;
+    margin: 66px 20px;
+    padding: 33px 35px;
+    gap: 31px;
+  }
+  .youtube-video{
+    grid-template-columns: 1fr;
+  }
+  .brand-2{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .bmi-decor{
+    padding: 34px 0 43px;
+  }
+  .clac-content{
+    flex-direction: column;
+    margin: 0 20px;
+    gap: 42px;
+  }
+  .bmi-text{
+    margin: 0 20px 32px;
+    height: 100%;
+
+  }
+  .team-img{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+    gap: 10px;
+  }
+  .card {
+    max-width: 100%;
+    margin: 0px;
+    gap: 10px;
+  }
+  .meet-team{
+    margin: 66px 20px;
+  }
+  .text-meet{
+    max-width: 100%;
+    margin: 0px;
+  }
+  .footer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .footer-1{
+    flex-direction: column;
+
+  }
+  .reserved{
+    max-width: 100%
+  }
+
 }
