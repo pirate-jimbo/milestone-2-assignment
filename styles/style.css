@@ -122,6 +122,10 @@
     margin-right: 20px;
   }
 
+  .nav-menu {
+    display: none;
+  }
+
   /* Banner Related Styles */
   .banner{
     justify-content: space-between;
@@ -293,6 +297,22 @@
   max-width: 500px;
   max-height: 520px;
   border-radius: 18px;
+}
+/* Extra feature */
+.features-div{
+  margin: 50px 190px 50px 190px ;
+  justify-content: space-between;
+}
+.youtube-video{
+  border-radius: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+
+}
+.features-text{
+  text-align: center;
+  margin-right: 150px;
+  margin-top: 50px;
 }
 
 /* BMI Calculator */
