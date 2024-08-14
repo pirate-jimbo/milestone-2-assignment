@@ -56,9 +56,12 @@
 
 /* Head Style */
 .head-bg-clr{
-  background-color: rgba(31, 31, 32, 0.459);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  background: linear-gradient(
+          180deg,
+          #111111 0%,
+          rgba(119, 119, 119, 0) 100%
+        );
+  
 
 }
 /* Nav Style */
@@ -156,20 +159,39 @@
     font-weight: 400;
     font-size: 0.82rem;
   }
+
+  .circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  .btn-display{
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+  }
+  .bt2-text{
+    text-align: right;
+    margin-top: -60px;
+  }
   
 
   .btn-2{
     position: absolute;
     color: white;
-    height: 100px;
-    width: 206px;
+    height: 110px;
+    width: 220px;
     padding: 17px 23px;
     background-color: rgba(111, 111, 112, 0.233);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border-radius: 12px;
     margin-left: -105px;
-    margin-top: -175px;
+    margin-top: -200px;
     border: none;
   }
 
