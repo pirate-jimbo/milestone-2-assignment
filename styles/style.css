@@ -511,20 +511,30 @@ align-items: center;
 /* Responsive Section For mobile max 576px*/
 @media screen and (max-width: 576px){
   .navbar{
-    padding: 52px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 30px;
     margin: 0;
+
   }
-  .navbar ul{
+  .nav-links{
     display: none;
   }
   .nav-menu{
-    display: inline-block;
+  display: inline;
+  display: flex;
+  width: 32px;
+  height: 5px;
+  margin: 3px 0px;
+  background-color: rgba(255, 255, 255, 0.856);
   }
   .club{
     display: none;
   }
   .banner{
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
   }
   .banner-text{
     padding: 0px;
@@ -537,6 +547,21 @@ align-items: center;
   }
   .banner-text p {
     max-width: 274px;
+  }
+  .dwn-btn{
+    padding: 15px;
+  }
+  .bannet-btn{
+    justify-content: space-evenly;
+  }
+  #btnid-1{
+    margin-top: -550px;
+    margin-left: 183px;
+  }
+  .btn-2{
+    margin-left: 0px;
+    margin-bottom: 350px;
+
   }
   /* .banner-img{
     margin-left: -200px;
@@ -561,6 +586,7 @@ align-items: center;
   .run-img{
     max-width: 100%;
   }
+  
   .features-div{
     flex-direction: column;
     margin: 66px 20px;
@@ -613,7 +639,8 @@ align-items: center;
 
   }
   .reserved{
-    max-width: 100%
+    max-width: 100%;
+    padding-bottom: 20px;
   }
 
 }
