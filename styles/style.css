@@ -122,7 +122,7 @@
     margin-right: 20px;
   }
 
-  .nav-menu {
+  .nav-menu1 {
     display: none;
   }
 
@@ -501,6 +501,7 @@ select {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 .border{
 border-top: 0.25px solid rgba(255, 255, 255, 0.103);
@@ -520,11 +521,13 @@ align-items: center;
   .nav-links{
     display: none;
   }
+  .nav-menu1{
+    display: inline;
+  }
   .nav-menu{
-  display: inline;
   display: flex;
-  width: 32px;
-  height: 5px;
+  width: 28px;
+  height: 3px;
   margin: 3px 0px;
   background-color: rgba(255, 255, 255, 0.856);
   }
@@ -596,9 +599,28 @@ align-items: center;
   .youtube-video{
     grid-template-columns: 1fr;
   }
+  .features-text{
+    margin: 30px 0px;
+  }
+  .features-text p{
+    padding: 0px;
+    text-emphasis: none;
+  }
+  .of{
+    display: none;
+  }
   .brand-2{
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 800;
+  }
+  .brand-2-1{
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  
+  .brand-3{
+    font-size: 2.5rem;
+    font-weight: 800;
   }
   .bmi-decor{
     padding: 34px 0 43px;
@@ -638,9 +660,13 @@ align-items: center;
     flex-direction: column;
 
   }
+  .list-text{
+    font-size: 1.1rem;
+  }
   .reserved{
     max-width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 15px 0px;
+    font-size: 0.8rem;
   }
 
 }
