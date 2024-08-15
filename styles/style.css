@@ -654,7 +654,7 @@ align-items: center;
   }
   .footer{
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
   }
   .footer-1{
     flex-direction: column;
